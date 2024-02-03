@@ -1,13 +1,14 @@
 import React from 'react'
 import './componentCSS/Header.css'
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <div>
-      <nav className="navbar py-3 navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar py-4 navbar-expand-lg">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Navbar
+            RK Associates
           </a>
           <button
             className="navbar-toggler"
@@ -21,44 +22,27 @@ const Header = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul className="navbar-nav">
+            <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <Link to={'/'} className="nav-link active" aria-current="page" href="#">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Features
-                </a>
+                <Link to={'services'} className="nav-link" href="#">
+                  Services
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Pricing
-                </a>
+                <Link to={'aboutus'} className="nav-link" href="#">
+                  About
+                </Link>
               </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown link
-                </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Admin Login
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Employee Login
-                    </a>
-                  </li>
-                </ul>
+              <li className="nav-item">
+                <Link to={'/login'} className="nav-link" href="#">
+
+                  Login
+                </Link>
               </li>
             </ul>
           </div>
