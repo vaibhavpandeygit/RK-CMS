@@ -2,10 +2,23 @@
     background-color: rgb(4,13,18);
 }
 
-.copyRightFoot{
-    background-color: rgba(0, 0, 0, 0.2);
+.footer-brand{
+    color: rgb(147,177,166) !important;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.footerContent{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.foot-link{
+    color: white;
+    text-decoration: none;
+    font-family: 'poppins';
+}
+
+.footer-content{
+    color: white;
+    font-family: 'poppins';
+}
+
+.copyRightFoot{
+    background-color: rgba(0, 0, 0, 0.2);
 }

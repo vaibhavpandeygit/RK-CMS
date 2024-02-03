@@ -10,6 +10,7 @@ import AboutUs from './Pages/AboutUs';
 import Contact from './Pages/Contact';
 import Register from './Pages/Register';
 import Footer from './components/Footer';
+import TermsConditions from './Pages/TermsConditions';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path='/aboutus' element={<AboutUs/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/register' element={<Register/>}/>
+          <Route path='/terms-conditions' element={<TermsConditions/>}/>
         </Routes>
         
         <Footer/>

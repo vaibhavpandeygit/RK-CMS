@@ -1,16 +1,19 @@
 import React from 'react'
 import './componentCSS/Footer.css'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
     <div>
-      <footer class="footer text-center text-lg-start">
-        <div class="container p-4">
-          <div class="row">
-            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-              <h5 class="text-uppercase footerContent">Footer Content</h5>
+      <footer className="footer text-center text-lg-start">
 
-              <p>
+        
+        {/* <div className="container p-4">
+          <div className="row">
+            <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 className="text-uppercase footer-brand">Footer Content</h5>
+
+              <p className='footer-content'>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
                 atque ea quis molestias. Fugiat pariatur maxime quis culpa
                 corporis vitae repudiandae aliquam voluptatem veniam, est atque
@@ -18,36 +21,36 @@ const Footer = () => {
               </p>
             </div>
 
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase mb-0">Links</h5>
+            <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 className="footer-brand text-uppercase mb-1">Pages</h5>
 
-              <ul class="list-unstyled">
+              <ul className="list-unstyled">
                 <li>
-                  <a href="#!" class="text-white">
-                    Link 1
-                  </a>
+                  <Link to={'/'} className="foot-link">
+                    Home
+                  </Link>
                 </li>
                 <li>
-                  <a href="#!" class="text-white">
-                    Link 2
-                  </a>
+                  <Link to={'/contact'} className="foot-link">
+                    Contact
+                  </Link>
                 </li>
                 <li>
-                  <a href="#!" class="text-white">
-                    Link 3
-                  </a>
+                  <Link to={'/terms-conditions'} className="foot-link">
+                    Terms & Condition
+                  </Link>
                 </li>
                 <li>
-                  <a href="#!" class="text-white">
-                    Link 4
-                  </a>
+                  <Link to={'/login'} className="foot-link">
+                    Login
+                  </Link>
                 </li>
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div class="copyRightFoot text-center p-3">
+        <div className="text-white copyRightFoot text-center p-3">
           © 2024 Copyright | RK Associates
         </div>
       </footer>
