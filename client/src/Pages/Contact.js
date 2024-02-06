@@ -3,10 +3,6 @@ import './CSSPage/contact.css'
 
 const Contact = () => {
   return (
-<<<<<<< HEAD
-    <div>
-      <h1>I am contact</h1>
-=======
     <div className='box'>
       <br></br>
       <div className="contact-us-container">
@@ -27,7 +23,6 @@ const Contact = () => {
     </div>
 
 
->>>>>>> developer/prabhat
     </div>
   )
 }
