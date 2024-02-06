@@ -5,11 +5,14 @@ require('dotenv').config();
 const {connectDB} = require('./db/ConnectDB.js');
 //Models Import
 const contactUser = require('./models/ContactModel.js');
+const cors = require('cors');
 
 
-
-
+//middlewares
+app.use(cors());
 app.use(express.json())
+
+//DB connection
 connectDB();
 
 app.get('/',(req,res)=>{
