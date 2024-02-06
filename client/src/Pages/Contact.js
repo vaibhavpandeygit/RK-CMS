@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
-
-import React from 'react'
 import './CSSPage/contact.css'
 
 const Contact = () => {
@@ -13,7 +11,7 @@ const Contact = () => {
 
     const postData =async ()=>{
             try {
-            const {data} = await axios.post('http://localhost:7000/contact',{
+            const data = await axios.post('http://localhost:7000/contact',{
                     name: name,
                     email: email,
                     phone: phone,
