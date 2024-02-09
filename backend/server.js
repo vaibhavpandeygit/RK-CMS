@@ -43,4 +43,13 @@ app.post('/contact', async (req,res)=>{
     }
 })
 
+app.get('/contact', async (req,res)=>{
+    try {
+        const allContact = await contactUser.find();
+        res.send(allContact);
+    } catch (error) {
+        console.log(error)
+    }
+})
+
 app.listen(process.env.PORT);
