@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import './CSSPage/contact.css'
+import Layout from '../components/componentCSS/Layout';
 
 const Contact = () => {
 
@@ -33,8 +34,8 @@ const Contact = () => {
     }
 
   return (
-    <div className='box'>
-      <br></br>
+    <Layout>
+      <div className='box'>
       <div className="contact-us-container">
       <h1>Contact Us</h1>
       <form onSubmit={handleSubmit}>
@@ -55,9 +56,8 @@ const Contact = () => {
          <h3 style={{"fontFamily": "poppins"}} className='text-center mt-1'>Get in touch with us to explore our best services.</h3>
       </form>
     </div>
-    
-    <br/>
-    </div>
+      </div>
+    </Layout>
   )
 }
 

@@ -1,0 +1,29 @@
+.col{
+    background-color: rgb(24,61,61);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    color: white;
+}
+
+ .container {
+    max-width:980px;
+    margin: 20px auto;
+    padding: auto;
+}
+
+#AboutUs {
+    text-align: center;
+    font-family: Georgia;
+    margin-top: auto;
+    padding: auto ;
+}
+
+
+
+#a1 {
+    margin-bottom: 20px;
+}
+
+.para{
+    font-family: poppins;
+}

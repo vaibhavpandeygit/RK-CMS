@@ -1,36 +1,19 @@
-.login-heading{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.adminSide{
-    float: left;
-    width: 50%;
-}
-
-.employeeSide{
-    float: left;
-    width: 50%;
-}
-
-/* Both Admin login and Emlopyee login CSS */
-
 .form-container{
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 70vh;
     flex-direction: column;
-    border: solid 3px;
-    border-radius: 10%;
-    background-color: rgb(147,177,166);
   }
 
   .form-container form{
     box-shadow: rgba(0, 0, 0, 35) 0px 5px 15px;
     padding: 20px;
-    background-color: #fff;
+    background-color: rgb(147,177,166);
   }
   .form-container form .title{
+    font-size: xx-large;
     text-align: center;
     margin-bottom: 15px;
     font-weight: bold;
@@ -40,11 +23,16 @@
   .form-container form input{
     border: none;
     border-bottom: 1px solid #000;
+    background-color: rgb(147,177,166);
+  }
+
+  .form-container form input:focus{
+    background-color:  rgb(147,177,166);
   }
 
   .form-container form button{
     border: 1px solid black;
-    border-radius: 0;
+    border-radius: 2;
     background-color: #000;
     color: white;
     width: 250px;
@@ -64,3 +52,8 @@
         #000000
     );
   }
+
+.buttondiv{
+  margin: 0 auto;
+  display: block;
+}
