@@ -1,10 +1,11 @@
 import React from 'react'
+import Layout from '../components/componentCSS/Layout'
 
 const Service = () => {
   return (
-    <div>
+    <Layout>
       <h1>I am service</h1>
-    </div>
+    </Layout>
   )
 }
 

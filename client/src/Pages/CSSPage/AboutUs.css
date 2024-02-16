@@ -1,26 +1,13 @@
-* {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
-
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+.col{
     background-color: rgb(24,61,61);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
     color: white;
 }
 
-.container {
+ .container {
     max-width:980px;
     margin: 20px auto;
-    padding: auto;
-}
-
-header {
-    background:rgb(4,13,18);
-    color: #fff;
     padding: auto;
 }
 
@@ -33,18 +20,10 @@ header {
 
 
 
-section {
+#a1 {
     margin-bottom: 20px;
 }
 
-
-
-footer {
-    text-align: center;
-    background:rgb(4,13,18);
-    color: #fff;
-    padding: 10px 0;
-    position: relative;;
-    bottom: 0;
-    width: 100%;
+.para{
+    font-family: poppins;
 }

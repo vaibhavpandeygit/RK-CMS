@@ -1,10 +1,11 @@
 import React from 'react'
+import Layout from '../components/componentCSS/Layout'
 
 const TermsConditions = () => {
   return (
-    <div>
+    <Layout>
       <h1>I am terms and conditions</h1>
-    </div>
+    </Layout>
   )
 }
 

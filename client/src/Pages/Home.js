@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import Layout from '../components/componentCSS/Layout'
 
 const Home = () => {
+
   return (
-    <div>
-      <h1>I am home</h1>
-    </div>
+    <Layout>
+        <h1>I am Home</h1>
+    </Layout>
   )
 }
 

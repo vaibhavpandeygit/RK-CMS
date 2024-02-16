@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <div>
-      <nav className="navbar py-4 navbar-expand-lg">
+      <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             RK Associates
@@ -29,19 +29,18 @@ const Header = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to={'services'} className="nav-link" href="#">
+                <Link to={'/services'} className="nav-link" href="#">
                   Services
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to={'aboutus'} className="nav-link" href="#">
-                  About
+                <Link to={'/adminlogin'} className="nav-link" href="#">
+                  Admin
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to={'/login'} className="nav-link" href="#">
-
-                  Login
+                <Link to={'/employeelogin'} className="nav-link" href="#">
+                  Employee
                 </Link>
               </li>
             </ul>
