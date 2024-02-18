@@ -8,7 +8,7 @@ const Footer = () => {
         <p className="p-1 col-md-4 mb-0 text-secondary">© {new Date().getFullYear()} RK Associates | All Rights Registered</p>
 
         <ul className="nav p-1 col-md-4 justify-content-end">
-          <li className="nav-item"><Link to={'/terms-conditions'} className="footer-link px-2 text-secondary">Terms and Conditions</Link></li>
+          <li className="nav-item"><Link to={'/privacy-policy'} className="footer-link px-2 text-secondary">Privacy Policy</Link></li>
           <li className="nav-item"><Link to={'/aboutus'} className="footer-link px-2 text-secondary">About Us</Link></li>
           <li className="nav-item"><Link to={'/contact'} className="footer-link px-2 text-secondary">Contact Us</Link></li>
         </ul>

@@ -6,7 +6,8 @@ import Home from './Pages/Home';
 import Service from './Pages/Service';
 import AboutUs from './Pages/AboutUs';
 import Contact from './Pages/Contact';
-import TermsConditions from './Pages/TermsConditions';
+import PrivacyPolicy from './Pages/PrivacyPolicy';
+
 import AdminLogin from './Pages/LoginPage/AdminLogin';
 import EmployeeLogin from './Pages/LoginPage/EmployeeLogin';
 
@@ -24,7 +25,7 @@ function App() {
           <Route path='/services' element={<Service/>}/>
           <Route path='/aboutus' element={<AboutUs/>}/>
           <Route path='/contact' element={<Contact/>}/>
-          <Route path='/terms-conditions' element={<TermsConditions/>}/>
+          <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>
         </Routes>
     </div>
   );
