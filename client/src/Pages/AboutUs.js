@@ -1,6 +1,6 @@
 import React from 'react'
 import './CSSPage/AboutUs.css'
-import Layout from '../components/componentCSS/Layout'
+import Layout from '../components/Layout'
 const AboutUs = () => {
   return (
     <Layout>

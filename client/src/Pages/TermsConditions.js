@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/componentCSS/Layout'
+import Layout from '../components/Layout'
 
 const TermsConditions = () => {
   return (

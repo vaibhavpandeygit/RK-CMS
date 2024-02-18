@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import './CSSPage/contact.css'
-import Layout from '../components/componentCSS/Layout';
+import Layout from '../components/Layout';
 
 const Contact = () => {
 

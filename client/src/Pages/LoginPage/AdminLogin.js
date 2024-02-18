@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './login.css'
 import { Link } from 'react-router-dom'
-import Layout from '../../components/componentCSS/Layout'
+import Layout from '../../components/Layout'
 
 const AdminLogin = () => {
 
